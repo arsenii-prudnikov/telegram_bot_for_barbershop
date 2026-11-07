@@ -1,0 +1,79 @@
+lang_name: "🇹🇷 Türkçe"
+choose_language: "🌍 Lütfen dilini seç:"
+welcome: |-
+  Merhaba {name}! 👋
+  <b>{salon}</b>'a hoş geldin.
+
+  Randevunu birkaç saniyede al – 7/24, telefon etmeden.
+menu_title: "Ne yapmak istersin?"
+menu_book: "📅 Randevu al"
+menu_my: "🗓 Randevularım"
+menu_services: "💈 Hizmetler ve fiyatlar"
+menu_contact: "📍 İletişim"
+menu_language: "🌍 Dil"
+back: "⬅️ Geri"
+home: "🏠 Menü"
+step: "Adım {n} / 4"
+choose_service: "✂️ <b>Hangi hizmeti istiyorsun?</b>"
+choose_master: "👤 <b>Kimden randevu almak istersin?</b>"
+any_master: "🎲 Fark etmez – ilk boş saat"
+choose_day: "📅 <b>Hangi gün?</b>\n✅ olan günlerde boş saat var."
+choose_time: "🕐 <b>{day}</b> – bir saat seç:"
+no_slots_day: "😕 Maalesef bu gün tamamen dolu."
+join_waitlist: "🔔 Bu gün için bekleme listesi"
+waitlist_added: "🔔 <b>{day}</b> için bekleme listesindesin. Bir saat boşalınca hemen haber vereceğim!"
+waitlist_exists: "Bu gün için zaten bekleme listesindesin. 👍"
+waitlist_offer: "🎉 Müjde! <b>{day}</b> günü <b>{service}</b> için bir saat boşaldı – {time}'dan itibaren.\nAcele et:"
+waitlist_book: "📅 Hemen randevu al"
+confirm_title: "📝 <b>Lütfen randevunu kontrol et:</b>"
+summary: |-
+  {emoji} <b>{service}</b>
+  👤 {master}
+  📅 {day}
+  🕐 {start}–{end}
+  💶 {price}
+confirm_yes: "✅ Randevuyu onayla"
+ask_phone: "📱 Neredeyse bitti! Değişiklik olursa salonun sana ulaşabilmesi için telefon numaranı bir kez paylaş."
+share_phone: "📱 Numarayı paylaş"
+skip_phone: "Atla"
+booked: |-
+  🎉 <b>Randevun alındı!</b>
+
+  {summary}
+
+  📍 {address}
+  Sana 24 saat ve 2 saat önce hatırlatacağım. Görüşmek üzere! 💇
+add_to_calendar: "📎 Takvimine ekle (Google, Apple, Outlook)"
+slot_taken: "⚡ Bu saat az önce alındı. Lütfen başka bir saat seç."
+my_none: "Şu an randevun yok. Yeni bir görünüm zamanı mı? ✨"
+my_title: "🗓 <b>Randevuların</b>"
+btn_reschedule: "🔄 Ertele"
+btn_cancel: "❌ İptal et"
+confirm_cancel: "Bu randevuyu gerçekten iptal etmek istiyor musun?\n\n{summary}"
+yes_cancel: "Evet, iptal et"
+no_keep: "Hayır, kalsın"
+cancelled: "Randevun iptal edildi. İstediğin zaman yeni randevu alabilirsin. 💜"
+too_late: "⏰ Son dakika değişiklikleri sadece telefonla mümkün: {phone}"
+not_found: "Bu randevu artık mevcut değil."
+choose_new_day: "🔄 <b>Yeni saat</b> – bir gün seç:"
+rescheduled: "✅ <b>Randevu ertelendi!</b>\n\n{summary}"
+reminder_24: "⏰ <b>Hatırlatma:</b> Randevun yarın!\n\n{summary}\n\n📍 {address}"
+reminder_2: "⏰ 2 saat sonra görüşüyoruz! 😊\n\n{summary}"
+review_ask: "{salon}'u ziyaret ettiğin için teşekkürler! 💜\nNe kadar memnun kaldın?"
+review_thanks: "Değerlendirmen için teşekkürler! ⭐"
+review_google: "Google'da da paylaşırsan bize çok yardımcı olur: {url}"
+services_title: "💈 <b>Hizmetlerimiz</b>"
+service_line: "{emoji} {name} – {duration} dk · <b>{price}</b>"
+contact: |-
+  📍 <b>{salon}</b>
+  {address}
+  📞 {phone}
+
+  🕐 <b>Çalışma saatleri</b>
+  {hours}
+closed: "kapalı"
+minutes: "dk"
+weekdays: ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"]
+months: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
+date_format: "{weekday}, {day} {month}"
+language_set: "✅ Dil: Türkçe"

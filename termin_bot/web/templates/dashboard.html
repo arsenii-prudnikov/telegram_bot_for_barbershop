@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ salon.name }} · Termin-Bot</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <img src="/static/favicon.svg" alt="" width="36" height="36">
+      <div>
+        <h1>{{ salon.name }}</h1>
+        <p>Termin-Bot · Online-Buchung über Telegram</p>
+      </div>
+    </div>
+    <a class="btn ghost" href="/kalender.ics" title="Als Kalender-Abo im Handy einbinden">📅 Kalender-Abo</a>
+  </header>
+
+  <main>
+    <section class="kpis" id="kpis">
+      <div class="kpi"><span>Termine (30 Tage)</span><strong id="k-apps">–</strong></div>
+      <div class="kpi"><span>Umsatz (30 Tage)</span><strong id="k-rev">–</strong></div>
+      <div class="kpi"><span>Auslastung nächste 7 Tage</span><strong id="k-util">–</strong></div>
+      <div class="kpi"><span>Bewertung</span><strong id="k-rating">–</strong></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <button class="btn ghost" id="prev" aria-label="Vorheriger Tag">‹</button>
+        <h2 id="day-label">Tagesplan</h2>
+        <button class="btn ghost" id="next" aria-label="Nächster Tag">›</button>
+        <button class="btn ghost" id="today">Heute</button>
+        <span class="spacer"></span>
+        <span class="legend"><i class="dot booked"></i>gebucht <i class="dot done"></i>erledigt <i class="dot no_show"></i>nicht erschienen <i class="dot block"></i>gesperrt</span>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <div class="card-head"><h2>Umsatz der letzten 14 Tage</h2></div>
+        <div id="chart" class="chart"></div>
+      </section>
+      <section class="card">
+        <div class="card-head"><h2>Beliebteste Leistungen</h2></div>
+        <ul id="top" class="toplist"></ul>
+        <p class="muted" id="extra"></p>
+      </section>
+    </div>
+  </main>
+
+  <div class="detail" id="detail" hidden>
+    <div class="detail-box">
+      <button class="close" id="close" aria-label="Schließen">×</button>
+      <div id="detail-body"></div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

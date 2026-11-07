@@ -1,0 +1,79 @@
+# Beispielkonfiguration für einen Salon.
+# Kopieren nach salon.yaml und anpassen – Programmieren ist dafür nicht nötig.
+
+salon:
+  name: "Studio Nordlicht"
+  adresse: "Friedrich-Ebert-Straße 12, 34117 Kassel"
+  telefon: "+49 561 1234567"
+  karte: "https://maps.google.com/?q=Friedrich-Ebert-Stra%C3%9Fe+12+Kassel"
+  zeitzone: "Europe/Berlin"
+  waehrung: "€"
+
+oeffnungszeiten:
+  mo: zu
+  di: "09:00-13:00, 14:00-19:00"
+  mi: "09:00-13:00, 14:00-19:00"
+  do: "09:00-13:00, 14:00-20:00"
+  fr: "09:00-13:00, 14:00-19:00"
+  sa: "09:00-15:00"
+  so: zu
+
+# Feiertage und Betriebsurlaub
+geschlossen:
+  - 2026-12-24
+  - 2026-12-25
+  - 2026-12-26
+  - 2026-12-31
+  - 2027-01-01
+
+regeln:
+  raster_minuten: 15      # Startzeiten im 15-Minuten-Takt
+  puffer_minuten: 5       # Pause zwischen zwei Kunden
+  vorlauf_minuten: 120    # frühestens 2 Stunden im Voraus buchbar
+  buchbar_tage: 21        # bis zu 3 Wochen im Voraus
+  storno_stunden: 3       # Kunden können bis 3 Stunden vorher selbst absagen/verschieben
+
+leistungen:
+  - id: herrenschnitt
+    emoji: "💈"
+    dauer: 30
+    preis: 25
+    name: {de: "Herrenschnitt", ru: "Мужская стрижка", uk: "Чоловіча стрижка", en: "Men's haircut", tr: "Erkek saç kesimi"}
+  - id: bart
+    emoji: "🧔"
+    dauer: 20
+    preis: 15
+    name: {de: "Bart trimmen", ru: "Стрижка бороды", uk: "Стрижка бороди", en: "Beard trim", tr: "Sakal düzeltme"}
+  - id: damenschnitt
+    emoji: "💇‍♀️"
+    dauer: 60
+    preis: 45
+    name: {de: "Damenschnitt & Föhnen", ru: "Женская стрижка и укладка", uk: "Жіноча стрижка та укладка", en: "Women's cut & blow-dry", tr: "Kadın kesim ve fön"}
+  - id: farbe
+    emoji: "🎨"
+    dauer: 120
+    preis: 89
+    name: {de: "Färben", ru: "Окрашивание", uk: "Фарбування", en: "Colouring", tr: "Boya"}
+  - id: augenbrauen
+    emoji: "✨"
+    dauer: 30
+    preis: 29
+    name: {de: "Augenbrauen formen", ru: "Коррекция бровей", uk: "Корекція брів", en: "Eyebrow shaping", tr: "Kaş şekillendirme"}
+
+team:
+  - id: lena
+    name: "Lena"
+    emoji: "👩‍🎨"
+    leistungen: [damenschnitt, farbe, augenbrauen]
+  - id: murat
+    name: "Murat"
+    emoji: "🧑‍🦱"
+    leistungen: [herrenschnitt, bart]
+  - id: oksana
+    name: "Oksana"
+    emoji: "👩"
+    leistungen: [augenbrauen, damenschnitt]
+    arbeitszeiten:          # eigene Zeiten (optional), sonst gelten die Öffnungszeiten
+      di: "09:00-13:00"
+      do: "14:00-20:00"
+      sa: "09:00-15:00"

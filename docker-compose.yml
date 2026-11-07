@@ -1,0 +1,13 @@
+services:
+  termin-bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE: /data/termine.db
+      SALON_FILE: /app/salon.yaml
+    volumes:
+      - ./data:/data
+      - ./salon.yaml:/app/salon.yaml:ro
+    ports:
+      - "8080:8080"

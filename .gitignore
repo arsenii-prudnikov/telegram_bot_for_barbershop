@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+data/
+salon.yaml
+.DS_Store
+docs/chat_*.png

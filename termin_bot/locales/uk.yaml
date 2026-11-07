@@ -1,0 +1,79 @@
+lang_name: "🇺🇦 Українська"
+choose_language: "🌍 Обери мову:"
+welcome: |-
+  Привіт, {name}! 👋
+  Ласкаво просимо до <b>{salon}</b>.
+
+  Тут можна записатися за кілька секунд – цілодобово і без дзвінків.
+menu_title: "Що хочеш зробити?"
+menu_book: "📅 Записатися"
+menu_my: "🗓 Мої записи"
+menu_services: "💈 Послуги та ціни"
+menu_contact: "📍 Контакти"
+menu_language: "🌍 Мова"
+back: "⬅️ Назад"
+home: "🏠 Меню"
+step: "Крок {n} з 4"
+choose_service: "✂️ <b>Яка послуга тобі потрібна?</b>"
+choose_master: "👤 <b>До якого майстра?</b>"
+any_master: "🎲 Будь-хто – найближчий час"
+choose_day: "📅 <b>Який день?</b>\nДні з ✅ – є вільний час."
+choose_time: "🕐 <b>{day}</b> – обери час:"
+no_slots_day: "😕 На цей день, на жаль, усе зайнято."
+join_waitlist: "🔔 Лист очікування на цей день"
+waitlist_added: "🔔 Ти в листі очікування на <b>{day}</b>. Щойно звільниться час – одразу напишу!"
+waitlist_exists: "Ти вже в листі очікування на цей день. 👍"
+waitlist_offer: "🎉 Гарні новини! <b>{day}</b> звільнився час на <b>{service}</b> – з {time}.\nВстигни записатися:"
+waitlist_book: "📅 Записатися зараз"
+confirm_title: "📝 <b>Перевір запис:</b>"
+summary: |-
+  {emoji} <b>{service}</b>
+  👤 {master}
+  📅 {day}
+  🕐 {start}–{end}
+  💶 {price}
+confirm_yes: "✅ Записатися"
+ask_phone: "📱 Майже готово! Поділися один раз номером телефону, щоб салон міг зв'язатися з тобою у разі змін."
+share_phone: "📱 Надіслати номер"
+skip_phone: "Пропустити"
+booked: |-
+  🎉 <b>Тебе записано!</b>
+
+  {summary}
+
+  📍 {address}
+  Нагадаю за 24 години і за 2 години. До зустрічі! 💇
+add_to_calendar: "📎 Запис для календаря (Google, Apple, Outlook)"
+slot_taken: "⚡ Цей час щойно зайняли. Обери, будь ласка, інший."
+my_none: "Зараз у тебе немає записів. Може, час оновити образ? ✨"
+my_title: "🗓 <b>Твої записи</b>"
+btn_reschedule: "🔄 Перенести"
+btn_cancel: "❌ Скасувати"
+confirm_cancel: "Точно скасувати цей запис?\n\n{summary}"
+yes_cancel: "Так, скасувати"
+no_keep: "Ні, залишити"
+cancelled: "Запис скасовано. Шкода! Записатися знову можна будь-коли. 💜"
+too_late: "⏰ Змінити запис так пізно можна лише телефоном: {phone}"
+not_found: "Цього запису більше немає."
+choose_new_day: "🔄 <b>Новий час</b> – обери день:"
+rescheduled: "✅ <b>Запис перенесено!</b>\n\n{summary}"
+reminder_24: "⏰ <b>Нагадування:</b> завтра в тебе запис!\n\n{summary}\n\n📍 {address}"
+reminder_2: "⏰ Через 2 години чекаємо на тебе! 😊\n\n{summary}"
+review_ask: "Дякуємо, що завітав(ла) до {salon}! 💜\nЯк тобі все сподобалося?"
+review_thanks: "Дякуємо за оцінку! ⭐"
+review_google: "Дуже допоможе, якщо залишиш відгук і в Google: {url}"
+services_title: "💈 <b>Наші послуги</b>"
+service_line: "{emoji} {name} – {duration} хв. · <b>{price}</b>"
+contact: |-
+  📍 <b>{salon}</b>
+  {address}
+  📞 {phone}
+
+  🕐 <b>Години роботи</b>
+  {hours}
+closed: "вихідний"
+minutes: "хв."
+weekdays: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
+months: ["січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня"]
+date_format: "{weekday}, {day} {month}"
+language_set: "✅ Мова: українська"

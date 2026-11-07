@@ -1,0 +1,79 @@
+lang_name: "🇬🇧 English"
+choose_language: "🌍 Please choose your language:"
+welcome: |-
+  Hi {name}! 👋
+  Welcome to <b>{salon}</b>.
+
+  Book your appointment in seconds – 24/7, no phone call needed.
+menu_title: "What would you like to do?"
+menu_book: "📅 Book appointment"
+menu_my: "🗓 My appointments"
+menu_services: "💈 Services & prices"
+menu_contact: "📍 Contact"
+menu_language: "🌍 Language"
+back: "⬅️ Back"
+home: "🏠 Menu"
+step: "Step {n} of 4"
+choose_service: "✂️ <b>Which service would you like?</b>"
+choose_master: "👤 <b>Who would you like to book with?</b>"
+any_master: "🎲 Anyone – first available"
+choose_day: "📅 <b>Which day?</b>\nDays marked ✅ have free slots."
+choose_time: "🕐 <b>{day}</b> – pick a time:"
+no_slots_day: "😕 Sorry, this day is fully booked."
+join_waitlist: "🔔 Join the waiting list"
+waitlist_added: "🔔 You're on the waiting list for <b>{day}</b>. I'll message you as soon as a slot opens up!"
+waitlist_exists: "You're already on the waiting list for this day. 👍"
+waitlist_offer: "🎉 Good news! A slot for <b>{service}</b> just opened up on <b>{day}</b> – from {time}.\nBe quick:"
+waitlist_book: "📅 Grab it now"
+confirm_title: "📝 <b>Please check your appointment:</b>"
+summary: |-
+  {emoji} <b>{service}</b>
+  👤 {master}
+  📅 {day}
+  🕐 {start}–{end}
+  💶 {price}
+confirm_yes: "✅ Book now"
+ask_phone: "📱 Almost done! Please share your phone number once so the salon can reach you if anything changes."
+share_phone: "📱 Share number"
+skip_phone: "Skip"
+booked: |-
+  🎉 <b>You're booked!</b>
+
+  {summary}
+
+  📍 {address}
+  I'll remind you 24 hours and 2 hours before. See you soon! 💇
+add_to_calendar: "📎 Add to your calendar (Google, Apple, Outlook)"
+slot_taken: "⚡ This time was just taken. Please pick another one."
+my_none: "You have no upcoming appointments. Time for a fresh look? ✨"
+my_title: "🗓 <b>Your appointments</b>"
+btn_reschedule: "🔄 Reschedule"
+btn_cancel: "❌ Cancel"
+confirm_cancel: "Do you really want to cancel this appointment?\n\n{summary}"
+yes_cancel: "Yes, cancel"
+no_keep: "No, keep it"
+cancelled: "Your appointment has been cancelled. You can book a new one anytime. 💜"
+too_late: "⏰ Short-notice changes are only possible by phone: {phone}"
+not_found: "This appointment no longer exists."
+choose_new_day: "🔄 <b>New time</b> – pick a day:"
+rescheduled: "✅ <b>Appointment moved!</b>\n\n{summary}"
+reminder_24: "⏰ <b>Reminder:</b> your appointment is tomorrow!\n\n{summary}\n\n📍 {address}"
+reminder_2: "⏰ See you in 2 hours! 😊\n\n{summary}"
+review_ask: "Thanks for visiting {salon}! 💜\nHow happy were you?"
+review_thanks: "Thank you for your rating! ⭐"
+review_google: "It would help us a lot if you shared it on Google too: {url}"
+services_title: "💈 <b>Our services</b>"
+service_line: "{emoji} {name} – {duration} min · <b>{price}</b>"
+contact: |-
+  📍 <b>{salon}</b>
+  {address}
+  📞 {phone}
+
+  🕐 <b>Opening hours</b>
+  {hours}
+closed: "closed"
+minutes: "min"
+weekdays: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+date_format: "{weekday}, {day} {month}"
+language_set: "✅ Language: English"
